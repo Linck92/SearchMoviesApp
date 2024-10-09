@@ -1,0 +1,10 @@
+.account {
+    max-width: 1300px;
+    margin-top: 20px;
+    margin-inline: auto;
+}
+.list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}

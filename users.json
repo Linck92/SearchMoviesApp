@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Vova",
+      "password": "1234",
+      "favourites": [
+        {
+          "Title": "Eyes Wide Shut",
+          "Year": "1999",
+          "imdbID": "tt0120663",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BYzMzZjcyNzEtZjE2OC00Yjk3LWExOGItODdhNzhkZTdmM2M0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Robin Hood",
+          "Year": "2010",
+          "imdbID": "tt0955308",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTM5NzcwMzEwOF5BMl5BanBnXkFtZTcwNjg5MTgwMw@@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Iron Man 2",
+          "Year": "2010",
+          "imdbID": "tt1228705",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BZGVkNDAyM2EtYzYxYy00ZWUxLTgwMjgtY2VmODE5OTk3N2M5XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg"
+        }
+      ],
+      "inputValue": "iron man"
+    },
+    {
+      "id": "2",
+      "name": "Kate",
+      "password": "1234",
+      "favourites": [
+        {
+          "Title": "Batman Begins",
+          "Year": "2005",
+          "imdbID": "tt0372784",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Batman v Superman: Dawn of Justice",
+          "Year": "2016",
+          "imdbID": "tt2975590",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        }
+      ],
+      "inputValue": "batman"
+    }
+  ]
+}

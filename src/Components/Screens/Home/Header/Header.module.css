@@ -1,0 +1,14 @@
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    align-self: end;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+}

@@ -1,0 +1,17 @@
+.select {
+    width: 20vw;
+    height: 50px;
+    border-radius: 7px;
+    margin: 0;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #2D384A;
+    transition-duration: 0.3s;
+    color: #D2D2D2;
+    outline: none;
+    cursor: pointer;
+}
+
+.select option {
+    background-color: #0A1F32;
+}

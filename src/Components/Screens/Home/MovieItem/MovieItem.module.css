@@ -1,0 +1,58 @@
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    height: fit-content;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.item:hover .icon {
+    opacity: 1;
+}
+
+.item:hover .rating {
+    opacity: 1;
+}
+
+.item:hover img {
+    box-shadow: 0px 0px 20px #D2D2D2;
+    transition: all 0.3s linear;
+    scale: 0.98;
+}
+
+.title {
+    white-space: wrap;
+}
+
+.item img {
+    height: 445px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+.icon {
+    opacity: 0;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: all 0.3s linear;
+    z-index: 2;
+}
+
+.rating {
+    opacity: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 0.3s linear;
+    font-size: 20px;
+    z-index: 2;
+}
